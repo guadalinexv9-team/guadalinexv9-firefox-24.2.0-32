@@ -1,6 +1,7 @@
 # YAML 1.1
 # Fichero de configuración de paquetes de personalización de Guadalinex v9
 
+
 # Nombre del paquete (minúsculas-separado-con-guiones)
 name: guadalinexv9-firefox-24.2.0-32
 
