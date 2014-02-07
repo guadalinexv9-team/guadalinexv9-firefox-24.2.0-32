@@ -1,3 +1,3 @@
 #!/bin/bash
 
-/opt/firefox/firefox -UILocale es-ES
+/opt/firefox/firefox -UILocale es-ES $@
