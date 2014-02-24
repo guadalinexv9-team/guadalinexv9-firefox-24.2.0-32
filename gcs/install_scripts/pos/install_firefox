@@ -1,11 +1,7 @@
-#!/bin/sh
-
-set -e
-
-if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] ; then
-    update-alternatives --install /usr/bin/firefox \
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-remove" ] ; then
+    update-alternatives --install /usr/bin/x-www-browser \
         x-www-browser /usr/bin/firefox 40
-    update-alternatives --install /usr/bin/firefox \
+    update-alternatives --install /usr/bin/gnome-www-browser \
         gnome-www-browser /usr/bin/firefox 40
 fi
 
