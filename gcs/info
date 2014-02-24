@@ -2,7 +2,7 @@
 # Fichero de configuración de paquetes de personalización de Guadalinex v9
 
 # Nombre del paquete (minúsculas-separado-con-guiones)
-name: guadalinexv9-firefox-24.2.0-32
+name: firefox-esr
 
 # Autor 
 author: Roberto C. Morano <rcmorano@emergya.es>
@@ -14,14 +14,14 @@ priority: optional
 section: metapackages
 
 # Descripción corta
-shortdesc: "Guadalinex v9 meta package with compiled version of firefox 24.2.0 32bits"
+shortdesc: "Guadalinex v9 meta package with compiled version of firefox 24.3.0"
 
 # Descipción larga, las lineas han de estar separadas por "\n "
-longdesc: "Guadalinex v9 meta package with compiled version of firefox 24.2.0 32bits"
+longdesc: "Guadalinex v9 meta package with compiled version of firefox 24.3.0"
 
 
 # Versión del paquete
-version: 9.0
+version: 24.3.0
 
 # Cambios en esta versión
 changes:
