@@ -1,0 +1,2 @@
+echo 'x-scheme-handler/apt=apturl.desktop' >> /etc/gnome/defaults.list
+
