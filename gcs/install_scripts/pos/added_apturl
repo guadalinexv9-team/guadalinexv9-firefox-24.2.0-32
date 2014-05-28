@@ -1,2 +1,5 @@
-echo 'x-scheme-handler/apt=apturl.desktop' >> /etc/gnome/defaults.list
+if [ -f /etc/gnome/defaults.list ]
+then
+    echo 'x-scheme-handler/apt=apturl.desktop' >> /etc/gnome/defaults.list
+fi
 
