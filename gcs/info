@@ -21,7 +21,7 @@ longdesc: "Guadalinex v9 meta package with compiled version of firefox 24.3.0"
 
 
 # Versión del paquete
-version: 24.3.0
+version: 24.7.0
 
 # Cambios en esta versión
 changes:
